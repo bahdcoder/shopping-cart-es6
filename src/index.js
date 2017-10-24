@@ -3,14 +3,6 @@ const Catalog = require('./Catalog/Catalog')
 const DigitalProduct = require('./Products/DigitalProduct')
 const PhysicalProduct = require('./Products/PhysicalProduct')
 
-/**
- * Very simple implementation of a shopping cart 
- */
-
-/**
- * Products come in two kinds; Digital and Physical. They have similar properties, except
- * the physical ones have stock and shipping address, while the digital have downloadLinks
- */
 
 /**
  * Create some products 
@@ -28,10 +20,6 @@ const PhysicalProduct = require('./Products/PhysicalProduct')
      stock: 12000
  })
 
-
- /**
-  * There is a simple catalog acting as a products repository
-  */
 
  /**
   * The products database
